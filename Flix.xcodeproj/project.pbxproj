@@ -130,13 +130,13 @@
 		C4F0D3DC2210EA3E0088FEBF /* Flix */ = {
 			isa = PBXGroup;
 			children = (
+				C4DED65D22112EFE0077D82B /* MoviesViewController.swift */,
+				C4DED65F221136DF0077D82B /* MovieCell.swift */,
+				C468600E22192B2400DB0C8E /* MovieDetailsViewController.swift */,
 				C4686010221938E700DB0C8E /* MovieGridViewController.swift */,
 				C4F0D3DD2210EA3E0088FEBF /* AppDelegate.swift */,
 				C4F0D3E12210EA3E0088FEBF /* Main.storyboard */,
-				C468600E22192B2400DB0C8E /* MovieDetailsViewController.swift */,
-				C4DED65F221136DF0077D82B /* MovieCell.swift */,
 				C4F0D3E42210EA3F0088FEBF /* Assets.xcassets */,
-				C4DED65D22112EFE0077D82B /* MoviesViewController.swift */,
 				C4F0D3E62210EA3F0088FEBF /* LaunchScreen.storyboard */,
 				C4F0D3E92210EA3F0088FEBF /* Info.plist */,
 			);
