@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flix/MoviesViewController.swift"
+            timestampString = "572078653.223501"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "MoviesViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flix.MoviesViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Flix.MoviesViewController"
+                  moduleName = "Flix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexanderhall/Documents/Flix/Flix/MoviesViewController.swift"
+                  timestampString = "572076552.163741"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flix.MoviesViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Flix.MoviesViewController"
+                  moduleName = "Flix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexanderhall/Documents/Flix/Flix/MoviesViewController.swift"
+                  timestampString = "572076552.166124"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flix.MoviesViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Flix.MoviesViewController&gt;"
+                  moduleName = "Flix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexanderhall/Documents/Flix/Flix/MoviesViewController.swift"
+                  timestampString = "572076552.168203"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flix.MoviesViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Flix.MoviesViewController&gt;"
+                  moduleName = "Flix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexanderhall/Documents/Flix/Flix/MoviesViewController.swift"
+                  timestampString = "572076552.170803"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flix.MoviesViewController.__deallocating_deinit"
+                  moduleName = "Flix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexanderhall/Documents/Flix/Flix/MoviesViewController.swift"
+                  timestampString = "572076552.174366"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
