@@ -9,27 +9,7 @@
 import UIKit
 import AlamofireImage
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return movies.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell") as! MovieCell
-        let movie = movies[indexPath.row]
-        let title = movie["title"] as!String
-        let synopsis = movie["overview"] as! String
-        
-        cell.titleLabel.text = title
-        cell.synopsisLabel.text = synopsis
-        
-        let baseUrl = "https://image.tmdb.org/t/p/w185"
-        let posterPath = movie["poster_path"] as!String
-        let posterUrl = URL(string: baseUrl + posterPath)
-        
-        cell.poserView.af_setImage(withURL: posterUrl!)
-        
-        return cell
-    }
+
     
 
     @IBOutlet weak var tableView: UITableView!
@@ -63,15 +43,43 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         task.resume()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return movies.count
     }
-    */
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell") as! MovieCell
+        let movie = movies[indexPath.row]
+        let title = movie["title"] as!String
+        let synopsis = movie["overview"] as! String
+        
+        cell.titleLabel.text = title
+        cell.synopsisLabel.text = synopsis
+        
+        let baseUrl = "https://image.tmdb.org/t/p/w185"
+        let posterPath = movie["poster_path"] as!String
+        let posterUrl = URL(string: baseUrl + posterPath)
+        
+        cell.poserView.af_setImage(withURL: posterUrl!)
+        
+        return cell
+    }
+
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//         Get the new view controller using segue.destination.
+//         Pass the selected object to the new view controller.
+        let cell = sender as! UITableViewCell
+        let IndexPath = tableView.indexPath(for: cell)!
+        
+        let movie = movies[IndexPath.row]
+        
+        let detailsViewController=segue.destination as! MovieDetailsViewController
+        detailsViewController.movie = movie
+        
+        tableView.deselectRow(at: IndexPath, animated: true)
+        
+    }
+
 
 }
